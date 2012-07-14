@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://maven.apache.org/POM/4.0.0     http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>org.dthume</groupId>
+    <artifactId>dthume-public</artifactId>
+    <version>0.3-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>jaxp-utils</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <url>http://dthume.github.com/${project.artifactId}/</url>
+
+  <scm>
+    <connection>scm:git:git://github.com/dthume/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:dthume/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/dthume/${project.artifactId}</url>
+  </scm>
+  
+  <distributionManagement>
+    <site>
+      <id>dthu.me.web</id>
+      <name>org.dthume Maven Website</name>
+      <url>https://github.com/dthume/${project.artifactId}/</url>
+    </site>
+  </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+  </dependencies>
+</project>

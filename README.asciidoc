@@ -1,0 +1,8 @@
+jaxp-utils
+=============
+David Thomas Hume
+:Author Initials: DTH
+
+Maven generated project sites are available for the latest
+http://dthume.github.com/jaxp-utils/[release] and
+http://dthu.me/projects/jaxp-utils/[snapshot] versions.
